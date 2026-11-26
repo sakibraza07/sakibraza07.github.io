@@ -19,6 +19,7 @@
         <ul class="nav-links">
             <li><a href="#about">About</a></li>
             <li><a href="#skills">Skills</a></li>
+            <li><a href="#experience">Experience</a></li>
             <li><a href="#projects">Projects</a></li>
             <li><a href="#contact">Contact</a></li>
         </ul>
@@ -85,20 +86,20 @@
             </div>
             <div class="about-stats fade-up">
                 <div class="stat">
-                    <div class="stat-num">2+</div>
+                    <div class="stat-num">4+</div>
                     <div class="stat-label">Projects Shipped</div>
                 </div>
                 <div class="stat">
-                    <div class="stat-num">∞</div>
-                    <div class="stat-label">Problems Solved</div>
+                    <div class="stat-num">2</div>
+                    <div class="stat-label">Hackathons</div>
                 </div>
                 <div class="stat">
                     <div class="stat-num">400+</div>
                     <div class="stat-label">DSA Problems Solved</div>
                 </div>
                 <div class="stat">
-                    <div class="stat-num">0</div>
-                    <div class="stat-label">Days Without Coding</div>
+                    <div class="stat-num">83%</div>
+                    <div class="stat-label">EmoSense Accuracy</div>
                 </div>
             </div>
         </div>
@@ -231,10 +232,67 @@
         </div>
     </section>
 
+    <!-- EXPERIENCE -->
+    <section id="experience">
+        <div class="section-header fade-up">
+            <span class="section-num">03</span>
+            <h2>Experience</h2>
+            <div class="section-line"></div>
+        </div>
+        <div class="exp-list">
+            <div class="exp-item fade-up">
+                <div class="exp-meta">2026 — Present</div>
+                <div class="exp-body">
+                    <h3>AI Evaluation Fellow</h3>
+                    <div class="exp-org">Handshake AI · Remote</div>
+                    <ul class="exp-points">
+                        <li>Build realistic command-line tasks that test how well AI agents solve multi-step problems in a terminal, each with a solution script, automated tests and a Docker environment.</li>
+                        <li>Designed research prompts needing multi-source web retrieval, with verified solution paths, to find where frontier LLMs fail.</li>
+                        <li>Worked from primary sources (SEC filings, court records, patent databases) and learned to close loopholes in question wording.</li>
+                        <li>Evaluated how AI models support creative brainstorming and annotated long videos with timestamped event sequences.</li>
+                    </ul>
+                    <div class="project-tags">
+                        <span class="tag">LLM Evaluation</span>
+                        <span class="tag">Docker</span>
+                        <span class="tag">Shell</span>
+                        <span class="tag">Research</span>
+                    </div>
+                </div>
+            </div>
+            <div class="exp-item fade-up">
+                <div class="exp-meta">2026</div>
+                <div class="exp-body">
+                    <h3>Second Runner-Up</h3>
+                    <div class="exp-org">Parul University Environment Hackathon</div>
+                    <ul class="exp-points">
+                        <li>Built EcoTrack, a full-stack carbon footprint tracker (React, FastAPI, MongoDB Atlas).</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="exp-item fade-up">
+                <div class="exp-meta">2026</div>
+                <div class="exp-body">
+                    <h3>Participant</h3>
+                    <div class="exp-org">Odoo Hackathon</div>
+                    <ul class="exp-points">
+                        <li>Built Traveloop, a travel planning platform (React, Node.js, Prisma, JWT auth).</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="exp-item fade-up">
+                <div class="exp-meta">Expected 2027</div>
+                <div class="exp-body">
+                    <h3>B.Tech, Computer Science</h3>
+                    <div class="exp-org">Parul University, Vadodara</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
     <!-- PROJECTS -->
     <section id="projects">
         <div class="section-header fade-up">
-            <span class="section-num">03</span>
+            <span class="section-num">04</span>
             <h2>Projects</h2>
             <div class="section-line"></div>
         </div>
@@ -243,16 +301,16 @@
                 <div class="project-num">PROJECT — 01</div>
                 <h3>EmoSense AI</h3>
                 <p>
-                    An emotion-aware AI system that understands and responds to human sentiment in real time. Built with
-                    NLP and LLM integration to deliver contextually intelligent, emotionally attuned responses —
-                    bridging the gap between human feeling and machine understanding.
+                    Speech emotion detection system. Extracts 269 audio features (MFCCs, spectral contrast), trained
+                    with data augmentation and cross-validated model selection, lifting test accuracy from 72.9% to
+                    83.3%. Flask backend with JWT auth, MongoDB, Docker, and a dashboard frontend.
                 </p>
                 <div class="project-footer">
                     <div class="project-tags">
                         <span class="tag">Python</span>
-                        <span class="tag">NLP</span>
-                        <span class="tag">LLM</span>
-                        <span class="tag">AI</span>
+                        <span class="tag">ML</span>
+                        <span class="tag">Flask</span>
+                        <span class="tag">Docker</span>
                     </div>
                     <a href="https://github.com/sakibraza07/emosense.ai" target="_blank" class="project-link">View →</a>
                 </div>
@@ -275,13 +333,45 @@
                     <a href="https://github.com/sakibraza07/mini-redis" target="_blank" class="project-link">View →</a>
                 </div>
             </div>
+            <div class="project-card fade-up">
+                <div class="project-num">PROJECT — 03</div>
+                <h3>EcoTrack</h3>
+                <p>
+                    Full-stack carbon footprint tracker with a React 19 frontend, FastAPI backend and MongoDB Atlas.
+                    Second Runner-Up at the Parul University Environment Hackathon 2026.
+                </p>
+                <div class="project-footer">
+                    <div class="project-tags">
+                        <span class="tag">React</span>
+                        <span class="tag">FastAPI</span>
+                        <span class="tag">MongoDB</span>
+                    </div>
+                    <a href="https://github.com/sakibraza07/EcoTrack" target="_blank" class="project-link">View →</a>
+                </div>
+            </div>
+            <div class="project-card fade-up">
+                <div class="project-num">PROJECT — 04</div>
+                <h3>Traveloop</h3>
+                <p>
+                    Travel planning platform with a normalized relational schema (User → Trip → Stop → Activity),
+                    JWT authentication and an Express + Prisma backend. Built for the Odoo Hackathon 2026.
+                </p>
+                <div class="project-footer">
+                    <div class="project-tags">
+                        <span class="tag">React</span>
+                        <span class="tag">Node.js</span>
+                        <span class="tag">Prisma</span>
+                    </div>
+                    <a href="https://github.com/sakibraza07/traveloop" target="_blank" class="project-link">View →</a>
+                </div>
+            </div>
         </div>
     </section>
 
     <!-- CONTACT -->
     <section id="contact">
         <div class="section-header fade-up">
-            <span class="section-num">04</span>
+            <span class="section-num">05</span>
             <h2>Contact</h2>
             <div class="section-line"></div>
         </div>
